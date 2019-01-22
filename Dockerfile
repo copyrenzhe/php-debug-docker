@@ -1,8 +1,8 @@
 FROM debian:stretch-slim
 
-ENV PHP_URL="https://secure.php.net/get/php-7.2.14.tar.gz/from/this/mirror"
+ENV PHP_URL="https://secure.php.net/get/php-7.1.26.tar.gz/from/this/mirror"
 
-ENV PHP_VERSION 7.2.14
+ENV PHP_VERSION 7.1.26
 
 WORKDIR /opt
 
