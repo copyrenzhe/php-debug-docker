@@ -32,6 +32,6 @@ RUN wget -O php.tar.gz "$PHP_URL" \
     && make install \
     && cp php.ini-development php.ini
 
-ENTRYPOINT [ "docker-php-entrypoint" ]
+ENTRYPOINT [ "./docker-php-entrypoint" ]
 
 CMD [ "php", "-a" ]
