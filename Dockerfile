@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install -y \
         libc-dev \
         libxml2-dev \
         gdb \
+        autoconf \
         && apt-get clean \
         && apt-get autoremove
 
